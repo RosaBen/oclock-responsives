@@ -62,6 +62,19 @@ nav {
 
 #highlight {
   position: relative;
+  margin-bottom: 1rem;
+}
+
+#gallery-and-aside {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+aside {
+  padding: 1rem;
+  background-color: var(--dark-blue);
+  margin: 0 1rem 1rem;
+  border-radius: 1rem;
 }
 
 /* typos */
@@ -114,6 +127,33 @@ nav a:hover {
   font-size: 1rem;
 }
 
+#gallery {
+}
+
+aside h3 {
+  font-size: 1.3rem;
+  color: var(--light-blue-title);
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--light-blue-title);
+  margin-bottom: 0.5rem;
+}
+
+aside > p {
+  font-size: 0.8rem;
+  line-height: 1.2;
+  color: var(--green);
+  margin-bottom: 2rem;
+}
+
+aside > p > a {
+  color: var(--green);
+}
+
+aside > p > a:hover {
+  color: white;
+  font-weight: 500;
+}
+
 /* images */
 
 #social-nav img {
@@ -126,6 +166,9 @@ nav a:hover {
   width: var(--max-width-mobile);
 }
 
+#gallery img {
+  width: 320px;
+}
 /* Footer */
 
 footer {
