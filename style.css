@@ -128,6 +128,18 @@ nav a:hover {
 }
 
 #gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#gallery-top-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 aside h3 {
@@ -152,6 +164,12 @@ aside > p > a {
 aside > p > a:hover {
   color: white;
   font-weight: 500;
+}
+
+main p:nth-child(4) {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--light-blue-title);
 }
 
 /* images */
