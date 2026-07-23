@@ -56,6 +56,14 @@ nav {
   gap: 0.5rem;
 }
 
+#presentation {
+  padding: 0.6rem;
+}
+
+#highlight {
+  position: relative;
+}
+
 /* typos */
 header h1 {
   background-color: var(--salmon);
@@ -83,7 +91,28 @@ nav a:hover {
   opacity: 0.7;
 }
 
-#presentation
+#presentation h2 {
+  font-size: 1.2rem;
+  color: var(--light-blue-title);
+  margin-bottom: 0.5rem;
+}
+
+#presentation p {
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+#presentation p a {
+  color: var(--green);
+}
+
+#highlight h2 {
+  color: white;
+  background-color: var(--salmon);
+  position: absolute;
+  font-size: 1rem;
+}
 
 /* images */
 
